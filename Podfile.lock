@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Kako (0.0.1):
+    - KeychainAccess
+    - Moya
+    - ObjectMapper
+    - ReachabilitySwift
+  - KeychainAccess (4.2.2)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.2.0)
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - Kako
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - KeychainAccess
+    - Moya
+    - ObjectMapper
+    - ReachabilitySwift
+  https://github.com/guisilvaa/AppsPodSpecs.git:
+    - Kako
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Kako: 80b377ab92d93c5c2a872a36889922298e51169b
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: bb37a17ffccf149790fe074ab3e0dc221d8f5f29
+
+COCOAPODS: 1.10.1
