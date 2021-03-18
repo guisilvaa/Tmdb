@@ -14,6 +14,7 @@
 		CF65FC982603DCA2005A3E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65FC962603DCA2005A3E4D /* Main.storyboard */; };
 		CF65FC9A2603DCA4005A3E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65FC992603DCA4005A3E4D /* Assets.xcassets */; };
 		CF65FC9D2603DCA4005A3E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65FC9B2603DCA4005A3E4D /* LaunchScreen.storyboard */; };
+		CF8A70452603EA8300F79C28 /* KakoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A70442603EA8300F79C28 /* KakoHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CF65FC992603DCA4005A3E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF65FC9C2603DCA4005A3E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF65FC9E2603DCA4005A3E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8A70442603EA8300F79C28 /* KakoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakoHandler.swift; sourceTree = "<group>"; };
 		D4AD235D91DCBFD823E7AE05 /* Pods-Tmdb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tmdb.debug.xcconfig"; path = "Target Support Files/Pods-Tmdb/Pods-Tmdb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 		CF65FC8F2603DCA2005A3E4D /* Tmdb */ = {
 			isa = PBXGroup;
 			children = (
+				CF8A70432603EA6400F79C28 /* Global */,
 				CF65FC902603DCA2005A3E4D /* AppDelegate.swift */,
 				CF65FC922603DCA2005A3E4D /* SceneDelegate.swift */,
 				CF65FC942603DCA2005A3E4D /* ViewController.swift */,
@@ -89,6 +92,14 @@
 				CF65FC9E2603DCA4005A3E4D /* Info.plist */,
 			);
 			path = Tmdb;
+			sourceTree = "<group>";
+		};
+		CF8A70432603EA6400F79C28 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A70442603EA8300F79C28 /* KakoHandler.swift */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8A70452603EA8300F79C28 /* KakoHandler.swift in Sources */,
 				CF65FC952603DCA2005A3E4D /* ViewController.swift in Sources */,
 				CF65FC912603DCA2005A3E4D /* AppDelegate.swift in Sources */,
 				CF65FC932603DCA2005A3E4D /* SceneDelegate.swift in Sources */,
