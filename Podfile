@@ -9,6 +9,11 @@ target 'Tmdb' do
   use_frameworks!
 
   pod 'Kako'
+  pod 'IQKeyboardManagerSwift'
+  pod 'lottie-ios'
+  pod 'UICircularProgressRing'
+  pod 'Kingfisher', '~> 6.0'
+  pod 'UIScrollView-InfiniteScroll', '~> 1.1.0'
 
 end
 

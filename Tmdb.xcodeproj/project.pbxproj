@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		11EC2BC07064A534DF89D3D4 /* Pods_Tmdb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBEAFA349F1168355F7D67 /* Pods_Tmdb.framework */; };
+		CF471E3B2609050500D04951 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF471E382609050500D04951 /* LoadingView.xib */; };
+		CF471E3C2609050500D04951 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF471E392609050500D04951 /* LoadingView.swift */; };
+		CF471E3D2609050500D04951 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF471E3A2609050500D04951 /* ShadowView.swift */; };
+		CF471E412609059700D04951 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF471E402609059700D04951 /* UIViewControllerExtension.swift */; };
+		CF471E442609066A00D04951 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF471E432609066A00D04951 /* UIImageViewExtension.swift */; };
+		CF471E492609073F00D04951 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = CF471E482609073F00D04951 /* loading.json */; };
+		CF471E4D2609076F00D04951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF471E4C2609076F00D04951 /* Assets.xcassets */; };
 		CF65FC912603DCA2005A3E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65FC902603DCA2005A3E4D /* AppDelegate.swift */; };
 		CF65FC932603DCA2005A3E4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65FC922603DCA2005A3E4D /* SceneDelegate.swift */; };
 		CF65FC952603DCA2005A3E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65FC942603DCA2005A3E4D /* ViewController.swift */; };
 		CF65FC982603DCA2005A3E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65FC962603DCA2005A3E4D /* Main.storyboard */; };
-		CF65FC9A2603DCA4005A3E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF65FC992603DCA4005A3E4D /* Assets.xcassets */; };
 		CF65FC9D2603DCA4005A3E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF65FC9B2603DCA4005A3E4D /* LaunchScreen.storyboard */; };
 		CF8A70452603EA8300F79C28 /* KakoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A70442603EA8300F79C28 /* KakoHandler.swift */; };
 /* End PBXBuildFile section */
@@ -20,12 +26,18 @@
 /* Begin PBXFileReference section */
 		48A29C7C055562E31577607F /* Pods-Tmdb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tmdb.release.xcconfig"; path = "Target Support Files/Pods-Tmdb/Pods-Tmdb.release.xcconfig"; sourceTree = "<group>"; };
 		6CFBEAFA349F1168355F7D67 /* Pods_Tmdb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tmdb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF471E382609050500D04951 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		CF471E392609050500D04951 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CF471E3A2609050500D04951 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		CF471E402609059700D04951 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		CF471E432609066A00D04951 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		CF471E482609073F00D04951 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		CF471E4C2609076F00D04951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF65FC8D2603DCA2005A3E4D /* Tmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tmdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF65FC902603DCA2005A3E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF65FC922603DCA2005A3E4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF65FC942603DCA2005A3E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF65FC972603DCA2005A3E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF65FC992603DCA4005A3E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF65FC9C2603DCA4005A3E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF65FC9E2603DCA4005A3E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF8A70442603EA8300F79C28 /* KakoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakoHandler.swift; sourceTree = "<group>"; };
@@ -61,6 +73,50 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CF471E36260904DF00D04951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF471E372609050500D04951 /* LoadingView */,
+				CF471E3A2609050500D04951 /* ShadowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF471E372609050500D04951 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				CF471E382609050500D04951 /* LoadingView.xib */,
+				CF471E392609050500D04951 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		CF471E3F2609057B00D04951 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF471E402609059700D04951 /* UIViewControllerExtension.swift */,
+				CF471E432609066A00D04951 /* UIImageViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF471E462609071600D04951 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF471E4C2609076F00D04951 /* Assets.xcassets */,
+				CF471E472609072200D04951 /* Animations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF471E472609072200D04951 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CF471E482609073F00D04951 /* loading.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		CF65FC842603DCA2005A3E4D = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +138,13 @@
 		CF65FC8F2603DCA2005A3E4D /* Tmdb */ = {
 			isa = PBXGroup;
 			children = (
+				CF471E462609071600D04951 /* Resources */,
+				CF471E3F2609057B00D04951 /* Extensions */,
 				CF8A70432603EA6400F79C28 /* Global */,
 				CF65FC902603DCA2005A3E4D /* AppDelegate.swift */,
 				CF65FC922603DCA2005A3E4D /* SceneDelegate.swift */,
 				CF65FC942603DCA2005A3E4D /* ViewController.swift */,
 				CF65FC962603DCA2005A3E4D /* Main.storyboard */,
-				CF65FC992603DCA4005A3E4D /* Assets.xcassets */,
 				CF65FC9B2603DCA4005A3E4D /* LaunchScreen.storyboard */,
 				CF65FC9E2603DCA4005A3E4D /* Info.plist */,
 			);
@@ -97,6 +154,7 @@
 		CF8A70432603EA6400F79C28 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				CF471E36260904DF00D04951 /* View */,
 				CF8A70442603EA8300F79C28 /* KakoHandler.swift */,
 			);
 			path = Global;
@@ -162,8 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF65FC9D2603DCA4005A3E4D /* LaunchScreen.storyboard in Resources */,
-				CF65FC9A2603DCA4005A3E4D /* Assets.xcassets in Resources */,
+				CF471E3B2609050500D04951 /* LoadingView.xib in Resources */,
 				CF65FC982603DCA2005A3E4D /* Main.storyboard in Resources */,
+				CF471E492609073F00D04951 /* loading.json in Resources */,
+				CF471E4D2609076F00D04951 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,9 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF471E3D2609050500D04951 /* ShadowView.swift in Sources */,
 				CF8A70452603EA8300F79C28 /* KakoHandler.swift in Sources */,
 				CF65FC952603DCA2005A3E4D /* ViewController.swift in Sources */,
 				CF65FC912603DCA2005A3E4D /* AppDelegate.swift in Sources */,
+				CF471E3C2609050500D04951 /* LoadingView.swift in Sources */,
+				CF471E412609059700D04951 /* UIViewControllerExtension.swift in Sources */,
+				CF471E442609066A00D04951 /* UIImageViewExtension.swift in Sources */,
 				CF65FC932603DCA2005A3E4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
